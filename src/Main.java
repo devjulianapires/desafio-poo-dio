@@ -58,13 +58,13 @@ public class Main {
       Dev devJuliana = new Dev();
         devJuliana.setNome("Juliana");
         devJuliana.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos João:" + devJuliana.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos Juliana:" + devJuliana.getConteudosInscritos());
         devJuliana.progredir();
         devJuliana.progredir();
         devJuliana.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos João:" + devJuliana.getConteudosInscritos());
-        System.out.println("Conteúdos Concluidos João:" + devJuliana.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos Juliana:" + devJuliana.getConteudosInscritos());
+        System.out.println("Conteúdos Concluidos Juliana:" + devJuliana.getConteudosConcluidos());
         System.out.println("XP:" + devJuliana.calcularTotalXp());
 
     }
