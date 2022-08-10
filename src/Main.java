@@ -1,22 +1,33 @@
 import br.com.dio.desafio.dominio.Bootcamp;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Dev;
+import br.com.dio.desafio.dominio.Expert;
 import br.com.dio.desafio.dominio.Mentoria;
 
 import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
+
+      Expert expertJava = new Expert();
+      expertJava.setNome("Camila Cavalcante");
+      expertJava.setArea("Back end");
+
+      Expert expertJavascript = new Expert();
+      expertJava.setNome("Camila Cavalcante");
+      expertJava.setArea("Back end");
         
       Curso curso1 = new Curso();
         curso1.setTitulo("curso java");
         curso1.setDescricao("descrição curso java");
         curso1.setCargaHoraria(8);
+        curso1.setExpert(expertJava);
 
         Curso curso2 = new Curso();
         curso2.setTitulo("curso js");
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
+        curso2.setExpert(expertJavascript);
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
